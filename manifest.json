@@ -1,0 +1,19 @@
+{
+  "name": "Daily Motivation",
+  "description": "Get a daily dose of motivation with a random quote.",
+  "icon": "https://example.com/icon.png",
+  "accountAssociation": {
+    "protocol": "farcaster",
+    "handle": "your-farcaster-handle"
+  },
+  "frame": {
+    "imageUrl": "https://example.com/initial-frame.png",
+    "postUrl": "https://example.com/api/frame",
+    "buttons": [
+      {
+        "label": "Get a Quote",
+        "action": "post"
+      }
+    ]
+  }
+}
